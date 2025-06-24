@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food</title>
-  </head>
-  <body>
-    <h1>This is just a template</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quod
-      cumque architecto, adipisci eos necessitatibus omnis sit quae facilis at,
-      sequi ullam quo, porro obcaecati amet natus officia. Velit, placeat.
-    </p>
-  </body>
-</html>
+<ul>
+  {% for item in item_list%}
+
+  <li>{{item.id}} {{item.item_name}}</li>
+
+  {% endfor %}
+</ul>
