@@ -4,6 +4,7 @@ from .models import Item
 from django.template import loader
 
 # Create your views here.
+# new
 def index(request):
     item_list = Item.objects.all()
     context = {
